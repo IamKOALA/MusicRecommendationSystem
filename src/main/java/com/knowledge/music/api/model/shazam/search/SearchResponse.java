@@ -1,4 +1,4 @@
-package com.knowledge.music.lottery.api.model.shazam.recommend;
+package com.knowledge.music.api.model.shazam.search;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
@@ -11,9 +11,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Actions {
-    public String name;
-    public String type;
-    public String uri;
-    public String id;
+public class SearchResponse {
+    public TracksResponse tracks;
 }

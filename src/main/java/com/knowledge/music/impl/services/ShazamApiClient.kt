@@ -1,10 +1,10 @@
-package com.knowledge.music.lottery.impl.services
+package com.knowledge.music.impl.services
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.knowledge.music.lottery.api.model.SongSearchRequest
-import com.knowledge.music.lottery.api.model.shazam.recommend.RecommendResponse
-import com.knowledge.music.lottery.api.model.shazam.search.SearchResponse
-import com.knowledge.music.lottery.api.services.ShazamApi
+import com.knowledge.music.api.model.SongSearchRequest
+import com.knowledge.music.api.model.shazam.recommend.RecommendResponse
+import com.knowledge.music.api.model.shazam.search.SearchResponse
+import com.knowledge.music.api.services.ShazamApi
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.springframework.stereotype.Service

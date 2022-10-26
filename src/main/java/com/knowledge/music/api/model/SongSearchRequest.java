@@ -1,4 +1,4 @@
-package com.knowledge.music.lottery.api.model;
+package com.knowledge.music.api.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

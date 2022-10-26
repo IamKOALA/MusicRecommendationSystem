@@ -1,4 +1,4 @@
-package com.knowledge.music.lottery.api.model.shazam.recommend;
+package com.knowledge.music.api.model.shazam.recommend;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
